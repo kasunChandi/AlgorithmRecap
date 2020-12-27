@@ -24,9 +24,9 @@ public class InsertionSortAlgo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		  int[] data = {9,5,3,6,6,2,10,11,17};
-		  InsertionSortAlgo is = new InsertionSortAlgo();
-		    is.getInsertionSort(data);
+		  int[] data = {9,5,3,6,6,2,10,11,17}; //set the array 
+		  InsertionSortAlgo inSor = new InsertionSortAlgo();
+		    inSor.getInsertionSort(data);
 		    System.out.println(Arrays.toString(data));
 
 	}
