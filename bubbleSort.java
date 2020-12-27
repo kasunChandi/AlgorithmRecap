@@ -14,11 +14,11 @@ public class bubbleSort {
 	} 
 
 
-	void printArray(int arr[]) 
+	void printArray(int arrVal[]) 
 	{ 
-		int n = arr.length; 
+		int n = arrVal.length; 
 		for (int i=0; i<n; ++i) 
-			System.out.print(arr[i] + " "); //printed 
+			System.out.print(arrVal[i] + " "); //printed 
 		System.out.println(); 
 	} 
 
