@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class QuickSort {
 	 int partition(int array[], int low, int high) {
 
-		    int pivot = array[high];
+		    int pivot = array[high]; // get the high pisition values 
 		    int i = (low - 1);
 
 		    for (int j = low; j < high; j++) {
@@ -21,6 +21,7 @@ public class QuickSort {
 		  }
 	
 	public void sorting(int[]array, int lowV, int highV) {
+		//check the passing values in conditions 
 		 if (lowV < highV) {
 
 		      int pi = partition(array, lowV, highV);
@@ -37,6 +38,7 @@ public class QuickSort {
 		   int[] data = {5,2,1,8,6,0,7, 7,10};
 		    int size = data.length;
 		    QuickSort qs = new QuickSort();
+		    //pass values to the sorting methord 
 		    qs.sorting(data, 0, size - 1);
 		    System.out.println(Arrays.toString(data));
 		
