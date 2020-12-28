@@ -1,3 +1,14 @@
+
+
+
+/*Example how it works [ 5, 1, 4, 2 ,8 ]
+ ***************************
+( 5 1 4 2 8 ) –> ( 1 5 4 2 8 )
+( 1 5 4 2 8 ) –>  ( 1 4 5 2 8 )
+( 1 4 5 2 8 ) –>  ( 1 4 2 5 8 )
+( 1 4 2 5 8 ) –> ( 1 4 2 5 8 )*/
+
+
 public class SelectionSortAlgo {  
 
 public static int getSmallest(int a[], int n, int i)  
