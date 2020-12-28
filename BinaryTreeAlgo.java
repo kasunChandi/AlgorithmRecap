@@ -1,9 +1,11 @@
-  /* following is the tree after above statement 
+  /*Step 1
+   *  following is the tree after above statement 
   
               1 
             /   \ 
           null  null     */
-  /* 2 and 3 become left and right children of 1 
+  /*Step 2
+   *  2 and 3 become left and right children of 1 
                1 
              /   \ 
             2      3 
@@ -11,7 +13,8 @@
         null null null null  */
   
 
- /* 4 becomes left child of 2 
+ /*Step 3
+  *  4 becomes left child of 2 
                     1 
                 /       \ 
                2          3 
