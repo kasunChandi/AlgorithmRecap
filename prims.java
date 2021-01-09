@@ -3,11 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package dijsktra1;
+
  import java.util.*; 
 import java.lang.*; 
-import java.io.*; 
-  import java.sql.*;
+
 /**
  *
  * @author Kasun
@@ -16,15 +15,12 @@ import java.io.*;
    
 class prims { 
     
-//     private static Connection con;
-//    private static Statement stm;
-//     private static ResultSet rs;
-    // Number of vertices in the graph 
+
     private static final int V = 5; 
   
     // A utility function to find the vertex with minimum key 
     // value, from the set of vertices not yet included in MST 
-    int minKey(int key[], Boolean mstSet[]) 
+    int minKey(int key[], boolean mstSet[]) 
     { 
         // Initialize min value 
         int min = Integer.MAX_VALUE, min_index = -1; 
@@ -61,7 +57,7 @@ class prims {
         int key[] = new int[V]; 
   
         // To represent set of vertices not yet included in MST 
-        Boolean mstSet[] = new Boolean[V]; 
+        boolean mstSet[] = new boolean[V]; 
   
         // Initialize all keys as INFINITE 
         for (int i = 0; i < V; i++) { 
